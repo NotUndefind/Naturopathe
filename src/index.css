@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.supportSwitchOn {
+		@apply bg-primary rounded-t-primary bg-opacity-40;
+	}
+
+	.supportSwitchOff {
+		@apply bg-primary rounded-t-primary bg-opacity-20;
+	}
+
+	.input {
+		@apply rounded-primary p-2;
+	}
+}

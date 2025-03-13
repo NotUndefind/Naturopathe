@@ -5,7 +5,7 @@ import { refreshTarget } from "../Support";
 
 export default function SwitchMode(props) {
 	return (
-		<div className="grid grid-cols-3 shadow-2xl rounded-t-primary ">
+		<div className="grid grid-cols-4 shadow-2xl rounded-t-primary ">
 			<button
 				onMouseEnter={refreshTarget(this)}
 				className="supportSwitchOn rounded-t-primary"
@@ -39,6 +39,18 @@ export default function SwitchMode(props) {
 					className="text-center font-title mx-auto text-2xl py-2"
 				>
 					{props.title[2]}
+				</h5>
+			</button>
+
+			<button
+				onMouseEnter={refreshTarget(this)}
+				className="rounded-t-primary"
+			>
+				<h5
+					id="title4"
+					className="text-center font-title mx-auto text-2xl py-2"
+				>
+					{props.title[3]}
 				</h5>
 			</button>
 		</div>

@@ -6,8 +6,9 @@ import SwitchMode from "./includes/SwitchMode";
 
 //Assets
 import image1 from "../../../assets/image1.jpg";
-import image2 from "../../../assets/image2.jpg";
-import image3 from "../../../assets/image3.jpg";
+import image2 from "../../../assets/Feuilles de plante.jpg";
+import image3 from "../../../assets/naturo.webp";
+import image4 from "../../../assets/Zen Sand Stones.jpg";
 
 //Tableau des textes
 const paragraphs = [
@@ -26,9 +27,10 @@ export default function Support() {
 			<div className=" shadow-2xl bg-shadow rounded-primary">
 				<SwitchMode
 					title={[
-						"Fleurs de bach",
-						"Réflexologie plantaire",
-						"Massage",
+						"La réflexologie plantaire",
+						"Les fleurs de Bach",
+						"Le massage relaxant californien",
+						"Le drainage lymphatique",
 					]}
 				></SwitchMode>
 				<div className="bg-primary rounded-b-primary flex flex-row place-content-between place-items-center descAccompagnement">
@@ -82,6 +84,11 @@ export function refreshTarget(button) {
 				document.querySelector("#supportImg").src = image3;
 				document.querySelector("#supportText").textContent =
 					paragraphs[2];
+				break;
+			case "title4":
+				document.querySelector("#supportImg").src = image4;
+				document.querySelector("#supportText").textContent =
+					paragraphs[3];
 				break;
 			default:
 				break;

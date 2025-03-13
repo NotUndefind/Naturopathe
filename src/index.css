@@ -16,7 +16,10 @@
 	}
 }
 
-.section:hover {
-	border: 1px solid #000;
-	transition: all 0.2s ease-in-out;
+.heroHeaderH1 {
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.heroHeaderH2 {
+	text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }

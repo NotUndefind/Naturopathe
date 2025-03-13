@@ -6,28 +6,57 @@ export default function Description() {
 			<h4 className="text-primary font-title text-2xl text-center">
 				Bénédicte Manin
 			</h4>
-			<div className="flex flex-col gap-5 max-w-96 mx-auto">
+			<div className="flex flex-col gap-3 max-w-screen-md mx-auto">
 				<p className="font-text">
-					Voluptate sint fugiat commodo amet ipsum irure veniam ad
-					labore ad in. Nisi dolor est eu sint ea incididunt velit
-					adipisicing. Cillum in aliquip proident amet irure esse.
-					Dolor adipisicing ad exercitation et quis laboris sint non
-					id id. Magna ad ut eu ex cupidatat reprehenderit velit
-					aliqua nostrud anim non. Dolor elit incididunt Lorem quis
-					anim incididunt dolore fugiat tempor quis non dolor in
-					incididunt.
+					J’ai exercé durant de nombreuses années une activité
+					professionnelle riche et diversifiée, cependant trop
+					éloignée de mes aspirations.
 				</p>
 				<p className="font-text">
-					Non reprehenderit laboris aliquip in do ipsum esse dolore
-					amet cillum eiusmod ipsum. Voluptate pariatur minim
-					consequat consectetur nisi fugiat ea veniam exercitation.
-					Occaecat in enim laborum. Fugiat excepteur cillum irure
-					culpa non esse ipsum. Culpa Lorem nostrud elit ea.
-					Consectetur amet Lorem fugiat minim enim veniam deserunt
-					enim eiusmod aliquip do eu. Sint enim laboris non do ullamco
-					minim minim. Lorem eu consequat eu exercitation id qui
-					incididunt ipsum.
+					Un déséquilibre dans ma vie professionnelle et ma santé
+					s’est installé et j’ai compris que notre équilibre de vie
+					naît d’une attention globale sur les plans physique,
+					psychique, émotionnelle.
 				</p>
+				<p className="font-text">
+					Dés mon enfance, j’ai naturellement appris à vivre avec les
+					saisons, le cycle des plantes, la nature. Convaincue par ses
+					bienfaits, les remèdes naturels, les démarches hygiénistes,
+					j’ai eu besoin de revenir à mes racines et d’exercer un
+					métier respectueux de ces valeurs.
+				</p>
+				<p className="font-text">
+					Cela m’a mené à la naturopathie qui m’a appris à améliorer
+					mon état de santé de façon naturelle, à me connaitre, à
+					écouter l’ensemble de mes besoins pour retrouver vitalité et
+					harmonie.
+				</p>
+				<p className="font-text">
+					Vous êtes acteur de votre santé et votre bien-être, mais
+					parfois le corps a besoin d’un coup de pouce et de
+					direction.
+				</p>
+				<p className="font-text">
+					Mon objectif est de vous aider à retrouver ou optimiser
+					votre vitalité, à vous engager dans votre prévention santé,
+					à vous reconnecter à votre propre potentiel d’autoguérison.
+				</p>
+				<p className="font-text">
+					Je souhaite être à vos cotés dans votre démarche de santé et
+					de mieux-être, je vous propose un accompagnement
+					personnalisé.
+				</p>
+				<p className="font-text">
+					Je souhaite être à vos cotés dans votre démarche de santé et
+					de mieux-être, je vous propose un accompagnement
+					personnalisé. Je vous accueille dans un environnement
+					chaleureux à Chonas l’Amballan (12 mn de Vienne), à
+					Condrieu, ou en visio.
+				</p>
+				Je souhaite être à vos cotés dans votre démarche de santé et de
+				mieux-être, je vous propose un accompagnement personnalisé. Je
+				vous accueille dans un environnement chaleureux à Chonas
+				l’Amballan (12 mn de Vienne), à Condrieu, ou en visio.
 			</div>
 		</div>
 	);

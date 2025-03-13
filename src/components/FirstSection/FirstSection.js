@@ -10,7 +10,7 @@ import SectionTitle from "../common/SectionTitle";
 export default function FirstSection() {
 	return (
 		<div className="space-y-10">
-			<SectionTitle title="Qui suis-je ?"></SectionTitle>
+			<SectionTitle title="A propos de moi"></SectionTitle>
 
 			<div className="grid sm:grid-cols-2 text-center sm:text-start">
 				<Description></Description>

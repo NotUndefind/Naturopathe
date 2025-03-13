@@ -15,3 +15,8 @@
 		@apply rounded-primary p-2;
 	}
 }
+
+.section:hover {
+	border: 1px solid #000;
+	transition: all 0.2s ease-in-out;
+}

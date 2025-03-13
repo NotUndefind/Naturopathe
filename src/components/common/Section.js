@@ -7,7 +7,7 @@ export default function Section() {
 				{/* eslint-disable-next-line */}
 				<a href="">A propos</a>
 			</div>
-			<div className="section rounded-primary p-1 center border border-transparent">
+			<div className="section rounded-primary p-1 center border border-hidden">
 				{/* eslint-disable-next-line */}
 				<a href="">La Naturopathie</a>
 			</div>

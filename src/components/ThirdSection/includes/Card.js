@@ -1,14 +1,7 @@
-import React from "react";
-
-export default function Card() {
+export default function Card(props) {
 	return (
-		<div className="shadow-2xl bg-primary rounded-primary p-10 text-center font-text max-h-max content-center">
-			<p className="text-white">
-				Enim anim ea duis culpa eiusmod sit occaecat esse tempor eiusmod
-				commodo dolor incididunt sint dolor. Aliqua reprehenderit
-				laboris amet. Mollit exercitation tempor cupidatat eiusmod esse
-				anim
-			</p>
+		<div className="shadow-2xl bg-primary rounded-primary p-10 text-center font-text content-center flex gap-3 flex-col">
+			{props.children}
 		</div>
 	);
 }

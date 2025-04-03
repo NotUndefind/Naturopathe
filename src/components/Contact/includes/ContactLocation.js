@@ -5,7 +5,7 @@ import image from "../../../assets/map.png";
 
 export default function ContactLocation() {
 	return (
-		<div className="bg-primary rounded-primary p-5 font-text text-center shadow-2xl grid row-auto gap-5 flex-1 h-full">
+		<div className="bg-primary rounded-primary p-5 font-text text-center shadow-2xl grid row-auto gap-5 flex-1 h-full text-white">
 			<div className="grid grid-rows-2 gap-5">
 				<div className="grid grid-cols-2">
 					<p>14 rue des moulin</p>

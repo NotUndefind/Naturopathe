@@ -5,7 +5,7 @@ import SubSectionTitle from "../../common/SubSectionTitle";
 
 export default function WhatIsIt() {
 	return (
-		<div className="">
+		<div className="" id="whatIsIt">
 			<SubSectionTitle subTitle="Qu'est-ce c'est"></SubSectionTitle>
 
 			<p class="text-center">

@@ -5,7 +5,7 @@ import SubSectionTitle from "../../common/SubSectionTitle";
 import SwitchMode from "./includes/SwitchMode";
 
 //Assets
-import image1 from "../../../assets/image1.jpg";
+import image1 from "../../../assets/plant.jpeg";
 import image2 from "../../../assets/Feuilles de plante.jpg";
 import image3 from "../../../assets/naturo.webp";
 import image4 from "../../../assets/Zen Sand Stones.jpg";
@@ -21,7 +21,7 @@ const paragraphs = [
 
 export default function Support() {
 	return (
-		<div className="accompagnement">
+		<div id="MonAccompagnement" className="accompagnement">
 			<SubSectionTitle subTitle="Mon accompagnement"></SubSectionTitle>
 
 			<div className=" shadow-2xl bg-shadow rounded-primary">
@@ -36,7 +36,7 @@ export default function Support() {
 				<div className="bg-primary rounded-b-primary flex flex-row place-content-between place-items-center descAccompagnement">
 					<p
 						id="supportText"
-						className="col-span-3 text-center place-content-center p-10"
+						className="col-span-3 text-center place-content-center p-10 text-white"
 					>
 						{paragraphs[0]}
 					</p>

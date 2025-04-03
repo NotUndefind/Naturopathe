@@ -1,7 +1,7 @@
 import React from "react";
 
 //Assets
-import image from "../../../assets/personView.jpeg";
+import image from "../../../assets/pres.jpeg";
 
 export default function PersonView() {
 	return (

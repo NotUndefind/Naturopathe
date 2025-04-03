@@ -8,7 +8,7 @@ import SubSectionTitle from "../common/SubSectionTitle";
 
 export default function Contact() {
 	return (
-		<div className="">
+		<div id="Contact" className="">
 			<SectionTitle title="Contact"></SectionTitle>
 
 			<div className="flex flex-col md:flex-row md:space-x-5">

@@ -1,0 +1,8 @@
+.tab-button:hover {
+	background: #b8b8b8;
+	transition: all 0.2s;
+}
+
+button.active {
+	background: #b8b8b8;
+}

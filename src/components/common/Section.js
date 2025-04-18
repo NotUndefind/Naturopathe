@@ -5,7 +5,7 @@ export default function Section() {
 		<div className="flex flex-row flex-wrap justify-center align-middle gap-5">
 			<div className="section rounded-primary p-1 center border hover:bg-primary hover:text-white transition ease-in-out shadow-2xl px-2 py-1">
 				{/* eslint-disable-next-line */}
-				<a href="#firstSection">A propos</a>
+				<a href="#firstSection">A propos de moi</a>
 			</div>
 			<div className="section rounded-primary p-1 center border hover:bg-primary hover:text-white transition ease-in-out shadow-2xl px-2 py-1">
 				{/* eslint-disable-next-line */}
@@ -17,7 +17,7 @@ export default function Section() {
 			</div>
 			<div className="section rounded-primary p-1 center border hover:bg-primary hover:text-white transition ease-in-out shadow-2xl px-2 py-1 ">
 				{/* eslint-disable-next-line */}
-				<a href="#Prestation">Prestation/Tarifs</a>
+				<a href="#Prestation">Prestations/Tarifs</a>
 			</div>
 		</div>
 	);

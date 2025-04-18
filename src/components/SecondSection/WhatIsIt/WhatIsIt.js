@@ -6,7 +6,7 @@ import SubSectionTitle from "../../common/SubSectionTitle";
 export default function WhatIsIt() {
 	return (
 		<div className="flex flex-col gap-3" id="whatIsIt">
-			<SubSectionTitle subTitle="Qu'est-ce c'est"></SubSectionTitle>
+			<SubSectionTitle subTitle="Qu'est-ce que c'est ?"></SubSectionTitle>
 
 			<p class="text-left">
 				<strong>La naturopathie</strong> est reconnue depuis 2001 par
@@ -15,9 +15,11 @@ export default function WhatIsIt() {
 
 			<p class="text-left">
 				Elle s’intéresse à la personne dans sa globalité, dans ses
-				dimensions physique, psychique, émotionnelle, énergétique. Elle
-				vise à préserver et optimiser votre santé globale, votre qualité
-				de vie en harmonie avec votre environnement.
+				dimensions physique, psychique, émotionnelle, énergétique.
+			</p>
+			<p class="text-left">
+				Elle vise à préserver et optimiser votre santé globale, votre
+				qualité de vie en harmonie avec votre environnement.
 			</p>
 
 			<p class="text-left">
@@ -58,7 +60,7 @@ export default function WhatIsIt() {
 			</p>
 
 			<p class="text-left">
-				<strong>La première séance, bilan de vitalité:</strong>
+				<strong>La première séance, bilan de vitalité : </strong>
 				nous retraçons ensemble les moments clés de votre histoire de
 				vie : nous abordons vos antécédents, votre état de santé, vos
 				habitudes, votre alimentation, votre état émotionnel, vos
@@ -71,10 +73,10 @@ export default function WhatIsIt() {
 				conseils adaptés.
 			</p>
 
-			<p class="text-left text-sm text-primary">
+			<p class="text-left text-sm text-primary opacity-75">
 				La naturopathie est complémentaire de la médecine
 				conventionnelle et ne dispense pas des soins médicaux
-				conventionnels Le naturopathe ne pose aucun diagnostic, ne
+				conventionnels. Le naturopathe ne pose aucun diagnostic, ne
 				délivre pas de prescription. N’arrêtez ou ne modifiez jamais un
 				traitement en cours sans l’avis de votre médecin traitant.
 			</p>

@@ -9,7 +9,7 @@ export default function HeroHeader() {
 				</h1>
 
 				<h2 className="heroHeaderH2 text-white font-title text-4xl drop-shadow-md">
-					Ipsum mollit id velit eu dolore culpa ullamco.
+					La santé naturellement.
 				</h2>
 			</div>
 		</div>

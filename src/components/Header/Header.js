@@ -28,7 +28,7 @@ export default function Header() {
 				className="content-center order-3 hidden md:block"
 				id="contact"
 			>
-				<Button mess="Contactez moi" href="#Prestation"></Button>
+				<Button mess="Contactez moi" href="#Contact"></Button>
 			</div>
 			<div className="md:hidden flex order-4">
 				<button onClick={toggleMenu}>

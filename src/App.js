@@ -20,7 +20,7 @@ export default function App() {
 					<HeroHeader></HeroHeader>
 
 					<div className="max-w-fit mx-auto my-10">
-						<Button mess="Contactez moi"></Button>
+						<Button mess="Contactez moi" href="#Contact"></Button>
 					</div>
 
 					<FirstSection></FirstSection>

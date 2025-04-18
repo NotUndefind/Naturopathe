@@ -1,7 +1,7 @@
 import React from "react";
 
 //Components
-import SubSectionTitle from "../../common/SubSectionTitle";
+import SectionTitle from "../../common/SectionTitle";
 import SwitchMode from "./includes/SwitchMode";
 
 //Assets
@@ -11,26 +11,42 @@ import image3 from "../../../assets/naturo.webp";
 import image4 from "../../../assets/Zen Sand Stones.jpg";
 
 //Tableau des textes
-const paragraphs = [
-	"Magna et ipsum Lorem deserunt ex sit labore et ex ullamco. Cillum tempor commodo eiusmod. Deserunt Lorem cupidatat sunt duis pariatur incididunt cillum ut consectetur proident occaecat culpa. Tempor labore fugiat aute nulla proident duis duis nisi qui sint officia. Tempor cupidatat excepteur laborum do esse elit consectetur commodo excepteur velit ad magna anim irure. Ea veniam proident fugiat laborum aliquip elit minim nulla fugiat nostrud ullamco et ut qui.Consectetur enim Lorem cupidatat laboris ex ex commodo incididunt. Esse aute laboris labore aute culpa tempor proident ea veniam sint ea. Adipisicing in enim enim adipisicing. Culpa adipisicing laborum fugiat velit veniam. Occaecat culpa pariatur labore. Cillum aliqua laboris consequat incididunt duis",
-
-	"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-
-	"idriss",
+const tabsData = [
+	{
+		title: "La réflexologie plantaire",
+		content: <>lol</>,
+		image: image1,
+	},
+	{
+		title: "Les fleurs de Bach",
+		content: <>lol</>,
+		image: image2,
+	},
+	{
+		title: "Le massage relaxant californien",
+		content: <>lol</>,
+		image: image3,
+	},
+	{
+		title: "Le drainage lymphatique manuel",
+		content: <>lol</>,
+		image: image4,
+	},
 ];
 
 export default function Support() {
 	return (
 		<div id="MonAccompagnement" className="accompagnement">
-			<SubSectionTitle subTitle="Mon accompagnement"></SubSectionTitle>
+			<SectionTitle title="Mon accompagnement"></SectionTitle>
 
+			<div className="my-10"></div>
 			<div className=" shadow-2xl bg-shadow rounded-primary">
 				<SwitchMode
 					title={[
 						"La réflexologie plantaire",
 						"Les fleurs de Bach",
 						"Le massage relaxant californien",
-						"Le drainage lymphatique",
+						"Le drainage lymphatique manuel",
 					]}
 				></SwitchMode>
 				<div className="bg-primary rounded-b-primary flex flex-row place-content-between place-items-center descAccompagnement">
@@ -38,7 +54,7 @@ export default function Support() {
 						id="supportText"
 						className="col-span-3 text-center place-content-center p-10 text-white"
 					>
-						{paragraphs[0]}
+						{tabsData[0].content}
 					</p>
 					<img
 						id="supportImg"
@@ -72,23 +88,23 @@ export function refreshTarget(button) {
 			case "title1":
 				document.querySelector("#supportImg").src = image1;
 				document.querySelector("#supportText").textContent =
-					paragraphs[0];
+					tabsData[0].content;
 
 				break;
 			case "title2":
 				document.querySelector("#supportImg").src = image2;
 				document.querySelector("#supportText").textContent =
-					paragraphs[1];
+					tabsData[1].content;
 				break;
 			case "title3":
 				document.querySelector("#supportImg").src = image3;
 				document.querySelector("#supportText").textContent =
-					paragraphs[2];
+					tabsData[2].content;
 				break;
 			case "title4":
 				document.querySelector("#supportImg").src = image4;
 				document.querySelector("#supportText").textContent =
-					paragraphs[3];
+					tabsData[3].content;
 				break;
 			default:
 				break;

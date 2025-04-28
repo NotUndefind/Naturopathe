@@ -18,14 +18,12 @@ module.exports = {
 			primary: "#513727",
 			white: "#FFFFFF",
 			shadow: "#F6F6F6",
-			secondary: "#DAB287",
 			accent: "#E9D37C",
 			copyright: "#BFBFBF",
 			primarySoft: "#daa67e",
-			primarySoftSoft: "#e5c1a5",
-			primarySoftSoftSoft: "#edd3bf",
 			nothing: "#fbf4f0",
 			hover: "#D39464",
+			special: "#140C0A",
 		},
 
 		borderRadius: {

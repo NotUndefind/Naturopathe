@@ -8,25 +8,27 @@ export default function WhatIsIt() {
 		<div className="flex flex-col gap-3" id="whatIsIt">
 			<SubSectionTitle subTitle="Qu'est-ce que c'est ?"></SubSectionTitle>
 
-			<p class="text-left">
-				<strong>La naturopathie</strong> est reconnue depuis 2001 par
-				l’OMS comme médecine traditionnelle.
-			</p>
+			<div>
+				<p class="text-left">
+					<strong>La naturopathie</strong> est reconnue depuis 2001
+					par l’OMS comme médecine traditionnelle.
+				</p>
 
-			<p class="text-left">
-				Elle s’intéresse à la personne dans sa globalité, dans ses
-				dimensions physique, psychique, émotionnelle, énergétique.
-			</p>
-			<p class="text-left">
-				Elle vise à préserver et optimiser votre santé globale, votre
-				qualité de vie en harmonie avec votre environnement.
-			</p>
+				<p class="text-left">
+					Elle s’intéresse à la personne dans sa globalité, dans ses
+					dimensions physique, psychique, émotionnelle, énergétique.
+				</p>
+				<p class="text-left">
+					Elle vise à préserver et optimiser votre santé globale,
+					votre qualité de vie en harmonie avec votre environnement.
+				</p>
 
-			<p class="text-left">
-				Par santé, il faut entendre « état de complet bien-être
-				physique, mental et social » et pas seulement une absence de
-				maladie.
-			</p>
+				<p class="text-left">
+					Par santé, il faut entendre « état de complet bien-être
+					physique, mental et social » et pas seulement une absence de
+					maladie.
+				</p>
+			</div>
 
 			<p class="text-left">
 				<strong>La naturopathie</strong> s’inspire des enseignements

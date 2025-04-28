@@ -8,8 +8,8 @@ export default function HeroHeader() {
 					Bénédicte Manin
 				</h1>
 
-				<h2 className="heroHeaderH2 text-white font-title text-4xl drop-shadow-md">
-					La santé naturellement.
+				<h2 className="heroHeaderH2 text-special font-title text-5xl drop-shadow-md ">
+					La santé naturellement
 				</h2>
 			</div>
 		</div>

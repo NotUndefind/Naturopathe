@@ -230,16 +230,9 @@ export default function Support() {
 					<img
 						src={activeTab.image}
 						alt={activeTab.title}
-						className="tab-image w-[250px] h-[240px] object-cover rounded-primary xl:m-10 m-5 min-w-[250px] min-h-[240px] sm:block hidden"
+						className="tab-image object-cover rounded-primary xl:m-10 m-5 max-w-[300px] min-h-[250px] sm:block hidden"
 					/>
 				)}
-				{/* <div className="flex flex-row place-content-evenly"> */}
-				{/* <div className="border border-primary rounded-t-primary py-2 px-3">
-						test
-					</div>
-				</div>
-
-				</div> */}
 			</div>
 		</div>
 	);

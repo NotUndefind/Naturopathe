@@ -15,7 +15,7 @@ export default function Description() {
 					les plans : physique, psychique, émotionnelle.
 				</p>
 				<p className="font-text">
-					Dés mon enfance, j’ai naturellement appris à vivre avec le
+					Dès mon enfance, j’ai naturellement appris à vivre avec le
 					cycle des saisons et des plantes. Convaincue par les remèdes
 					et les bienfaits naturels, la naturopathie s’est imposée à
 					moi. Elle m’a appris à améliorer mon état de santé de façon

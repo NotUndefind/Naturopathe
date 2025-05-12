@@ -7,7 +7,7 @@ import Support from "./Support/Support";
 
 export default function SecondSection() {
 	return (
-		<div className="space-y-2 my-20">
+		<div className="space-y-2 my-20 scroll-mt-20" id="whatIsIt">
 			<SectionTitle title="La Naturopathie"></SectionTitle>
 			<div className="space-y-10">
 				<WhatIsIt></WhatIsIt>

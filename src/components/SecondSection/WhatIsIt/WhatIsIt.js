@@ -5,7 +5,7 @@ import SubSectionTitle from "../../common/SubSectionTitle";
 
 export default function WhatIsIt() {
 	return (
-		<div className="flex flex-col gap-3" id="whatIsIt">
+		<div className="flex flex-col gap-3" id="">
 			<SubSectionTitle subTitle="Qu'est-ce que c'est ?"></SubSectionTitle>
 
 			<div>

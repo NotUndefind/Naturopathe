@@ -6,7 +6,7 @@ import Card from "./includes/Card";
 
 export default function ThirdSection() {
 	return (
-		<div id="Prestation" className="space-y-10 mb-10">
+		<div id="Prestation" className="space-y-10 mb-10 scroll-mt-20">
 			<SectionTitle title="Prestations/Tarifs"></SectionTitle>
 
 			<div className="flex md:flex-row flex-col flex-wrap gap-5 place-content-center">

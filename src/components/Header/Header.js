@@ -14,7 +14,7 @@ import burgerClose from "../../assets/burgerClose.svg";
 
 export default function Header() {
 	return (
-		<div className="flex flex-row flex-wrap place-content-around rounded-primary shadow-2xl bg-shadow px-4 py-2 fixed  left-1/2 -translate-x-1/2  2xl:w-[1536px] xl:w-[1280px] text-nowrap w-full">
+		<div className="flex flex-row flex-wrap place-content-around rounded-primary shadow-2xl bg-shadow px-4 fixed  left-1/2 -translate-x-1/2  2xl:w-[1536px] xl:w-[1280px] text-nowrap w-full z-20">
 			<div className="content-center order-1">
 				<Logo src={image} className="w-16"></Logo>
 			</div>

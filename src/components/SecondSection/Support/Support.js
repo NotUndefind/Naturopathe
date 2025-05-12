@@ -206,7 +206,7 @@ export default function Support() {
 	const [activeIndex, setActiveIndex] = useState(0);
 	const activeTab = tabsData[activeIndex];
 	return (
-		<div id="MonAccompagnement" className="accompagnement">
+		<div id="MonAccompagnement" className="accompagnement scroll-mt-20">
 			<SectionTitle title="Mon accompagnement"></SectionTitle>
 
 			<div className="my-10"></div>

@@ -39,7 +39,7 @@ export default function Description() {
 				</p>
 				<p className="font-text">
 					Je vous accueille dans un environnement chaleureux à Chonas
-					l’Amballan (12 mn de Vienne), à Condrieu, ou en visio.
+					l’Amballan (12 mn de Vienne) ou en visio.
 				</p>
 			</div>
 		</div>

@@ -2,8 +2,8 @@ import React from "react";
 
 export default function ContactLocation() {
 	return (
-		<div className="bg-primary rounded-primary p-5 font-text text-center shadow-2xl grid row-auto gap-5 flex-1 h-full text-white">
-			<div className="grid grid-rows-2 gap-5">
+		<div className="bg-primary rounded-primary p-5 font-text text-center shadow-2xl row-auto gap-5 h-full text-white flex flex-col justify-center">
+			<div className="flex flex-col gap-5">
 				<p className="text-xl">50 Pass. des Cèdres,</p>
 				<p className="text-xl">38121 Chonas-l'Amballan</p>
 			</div>

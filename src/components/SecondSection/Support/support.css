@@ -6,3 +6,18 @@
 button.active {
 	background: #b8b8b8;
 }
+
+/* Styles pour les onglets */
+.tab-button {
+	transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+	background-color: #4b2e2e;
+	color: white;
+}
+
+/* Styles pour le contenu des onglets */
+.tab-content {
+	transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}

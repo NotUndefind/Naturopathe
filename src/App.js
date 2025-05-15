@@ -13,7 +13,7 @@ import Button from "./components/common/Button";
 
 export default function App() {
 	return (
-		<div className="p-4">
+		<div className="">
 			<div className="vw-100 mx-auto mt-1 relative">
 				<Header></Header>
 				<div className="lg:max-w-screen-lg md:max-w-screen-md mx-auto pt-20">

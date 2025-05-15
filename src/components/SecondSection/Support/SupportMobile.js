@@ -182,7 +182,7 @@ export default function SupportMobile() {
 
 	return (
 		<div className="block md:hidden">
-			<div className="flex overflow-x-auto space-x-4 pb-4">
+			<div className="flex overflow-x-auto space-x-4 pb-4 flex-col">
 				{tabsData.map((tab, index) => (
 					<button
 						key={index}

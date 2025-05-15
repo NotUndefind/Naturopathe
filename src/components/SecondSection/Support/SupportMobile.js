@@ -3,7 +3,7 @@ import "./support.css";
 
 // Composant pour la version mobile des onglets
 export default function SupportMobile() {
-	const [activeIndex, setActiveIndex] = useState(null);
+	const [activeIndex, setActiveIndex] = useState(0);
 
 	const tabsData = [
 		{

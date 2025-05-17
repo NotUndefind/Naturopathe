@@ -8,7 +8,7 @@ import SupportMobile from "./Support/SupportMobile";
 
 export default function SecondSection() {
 	return (
-		<div className="space-y-2 my-20 scroll-mt-20 h-full" id="whatIsIt">
+		<div className="space-y-2 my-10 scroll-mt-20 h-full" id="whatIsIt">
 			<SectionTitle title="La Naturopathie"></SectionTitle>
 			<div className="space-y-10">
 				<WhatIsIt></WhatIsIt>

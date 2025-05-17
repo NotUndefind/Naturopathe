@@ -182,7 +182,7 @@ export default function SupportMobile() {
 
 	return (
 		<div className="block md:hidden">
-			<div className="flex overflow-x-auto space-x-4 pb-4 flex-col">
+			<div className="flex space-x-4 pb-4 flex-col">
 				{tabsData.map((tab, index) => (
 					<button
 						key={index}
@@ -201,13 +201,13 @@ export default function SupportMobile() {
 				{tabsData.map((tab, index) => (
 					<div
 						key={index}
-						className={`transition-all duration-300 ease-in-out ${
+						className={`transition-all duration-300 ease-in-out flex flex-col ${
 							activeIndex === index
-								? "max-h-screen opacity-100"
+								? " opacity-100 h-full"
 								: "max-h-0 opacity-0 overflow-hidden"
 						}`}
 					>
-						<div className="p-4 bg-white rounded-primary shadow h-full">
+						<div className="p-4 bg-white rounded-primary shadow-xl">
 							{tab.content}
 						</div>
 					</div>

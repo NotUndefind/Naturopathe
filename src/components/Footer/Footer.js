@@ -13,6 +13,11 @@ export default function Footer() {
 			<Logo src={image} className="mx-auto w-20"></Logo>
 
 			<Copyright></Copyright>
+
+			<div className="text-copyright opacity-20">
+				Made By
+				<a href="https://julesbourin.com"> Jules Bourin</a>
+			</div>
 		</div>
 	);
 }
